@@ -9,8 +9,40 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var changeText = false;
     var body: some View {
-        Text("Hello, World!")
+        
+        VStack {
+            
+            HStack {
+                Spacer()
+                Button(action: {
+                                        self.changeText = !self.changeText;                }) {
+                    Text("Butao 1")
+                }
+                Spacer()
+                Button(action: {
+                                    self.changeText = !self.changeText;                }) {
+                    Text("Botao 2").foregroundColor(Color.green)
+                }
+                Spacer()
+                Button(action: {
+                    self.changeText = !self.changeText;
+                }) {
+                    Text("Botao 3").foregroundColor(Color.red)
+                }
+                Spacer()
+            }.padding(.vertical, 20)
+            
+            if (changeText) {
+                Text("Agora é pra mostrar!");
+            } else {
+                Text("Agora NÃO é pra mostrar");
+            }
+            
+        }
+        
     }
 }
 

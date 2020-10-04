@@ -13,6 +13,7 @@
 		22E18420252A67DA007DEEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E1841F252A67DA007DEEBC /* Assets.xcassets */; };
 		22E18423252A67DA007DEEBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E18422252A67DA007DEEBC /* Preview Assets.xcassets */; };
 		22E18426252A67DA007DEEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E18424252A67DA007DEEBC /* LaunchScreen.storyboard */; };
+		22E18432252A6F2E007DEEBC /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E18431252A6F2E007DEEBC /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		22E18422252A67DA007DEEBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22E18425252A67DA007DEEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22E18427252A67DA007DEEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E18431252A6F2E007DEEBC /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				22E18424252A67DA007DEEBC /* LaunchScreen.storyboard */,
 				22E18427252A67DA007DEEBC /* Info.plist */,
 				22E18421252A67DA007DEEBC /* Preview Content */,
+				22E18431252A6F2E007DEEBC /* SwiftUIView.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				22E1841A252A67D8007DEEBC /* AppDelegate.swift in Sources */,
 				22E1841C252A67D8007DEEBC /* SceneDelegate.swift in Sources */,
+				22E18432252A6F2E007DEEBC /* SwiftUIView.swift in Sources */,
 				22E1841E252A67D8007DEEBC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
