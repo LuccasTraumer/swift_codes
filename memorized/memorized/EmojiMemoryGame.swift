@@ -8,9 +8,9 @@
 
 import Foundation
 
-class EmojiMemoryGame {
+class EmojiMemoryGame: ObservableObject {
     
-    private var model = EmojiMemoryGame.createdMemoryGame()
+    @Published private var model = EmojiMemoryGame.createdMemoryGame()
     
     
     
@@ -20,7 +20,7 @@ class EmojiMemoryGame {
     
     static func createdMemoryGame() -> MemoryGame<String> {
         let emojis = ["👻","🎃","🕷"]
-        return MemoryGame<String>(numberOfPairsOfCards: 2) { parIndex in
+        return MemoryGame<String>(numberOfPairsOfCards: emojis.count) { parIndex in
             return emojis[parIndex]
         }
         
